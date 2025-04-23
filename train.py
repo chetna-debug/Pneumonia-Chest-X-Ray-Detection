@@ -3,7 +3,7 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import os
 
 # Define dataset paths
-dataset_path = r"C:\Users\cheth\PycharmProjects\PythonProject\chest_xray"
+dataset_path = r"Your dataset path"
 train_dir = os.path.join(dataset_path, "train")
 val_dir = os.path.join(dataset_path, "val")
 
